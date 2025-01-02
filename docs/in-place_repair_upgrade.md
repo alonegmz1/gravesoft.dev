@@ -12,7 +12,7 @@ In-place repair upgrade using Windows ISO file is a good way to fix system error
         x64 means 64 Bit, x86 means 32 Bit
     -   To check the installed Windows Language, open Powershell as admin and enter,  
         `dism /english /online /get-intl | find /i "Default system UI language"`
-    -   Note: If you are running the Enterprise LTSC edition, you will need to download that edition's ISO file. Don't download Evaluation version, that can't be activated.
+    -   Note: If you are running the Enterprise LTSC edition, you will need to download that edition's ISO file. Don't download the Evaluation version, that can't be activated.
 -   Right-click on the downloaded ISO file, Open With > Windows Explorer
 -   A new DVD drive will appear in Windows Explorer, which means the installation image has been mounted successfully.
 <details>
